@@ -5,6 +5,7 @@
 */
 
 
+const log = require('../../utils/logger').child({ __filename });
 function sanitize_greyDirection(action) {
   switch (action) {
     case 'left':

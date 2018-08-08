@@ -5,6 +5,7 @@
 */
 
 
+const log = require('../../utils/logger').child({ __filename });
 
 class Detox {
   static setUpCustomEspressoIdlingResources(element) {

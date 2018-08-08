@@ -5,6 +5,7 @@
 */
 
 
+const log = require('../../utils/logger').child({ __filename });
 
 class GREYInteraction {
   /*Indicates that the current interaction should be performed on a UI element contained inside

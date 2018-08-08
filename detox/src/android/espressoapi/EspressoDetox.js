@@ -5,6 +5,7 @@
 */
 
 
+const log = require('../../utils/logger').child({ __filename });
 
 class EspressoDetox {
   static perform(interaction, action) {
